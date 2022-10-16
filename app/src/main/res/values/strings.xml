@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MapBoxTestV1</string>
+    <string name="mapbox_access_token">sk.eyJ1Ijoia3VtaXJlbm5haWRvbyIsImEiOiJjbDhxZXNlbGMxYXM4NDFsaGlqNXZzc2t2In0.Fzjk-upgqhtg2UJ0F5sT1g</string>
+    <string name="polygon_circle_transformation_click_map_instruction">Tap the map to move the circle</string>
+    <string name="polygon_circle_transformation_circle_steps">Steps: %1$d</string>
+    <string name="polygon_circle_transformation_circle_radius">Radius: %1$s</string>
+    <string name="polygon_circle_transformation_circle_distance_units">Unit: </string>
+
+    <!--Basic user location permission toasts-->
+    <string name="user_location_permission_explanation">This app needs location permissions in order to show its functionality.</string>
+    <string name="user_location_permission_not_granted">You didn\'t grant location permissions.</string>
+
+
+    <string-array name="polygon_circle_transformation_circle_distance_units_array">
+        <item>Kilometers</item>
+        <item>Miles</item>
+        <item>Degrees</item>
+        <item>Radians</item>
+    </string-array>
+
+    <!-- Within circle filter-->
+    <string-array name="within_poi_filter_circle_distance_units_array">
+        <item>Miles</item>
+        <item>Kilometers</item>
+    </string-array>
+
+</resources>
